@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .container .progress::before
+     {
+        background: var(--clr);
+        transform :rotate(calc((( var(--i) - 50) * 0.01turn )));
+    }
+
+     .container .progress.less::before
+     {
+        transform :rotate(calc((( var(--i) - 0) * 0.01turn )));
+     }
+
+    </style>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md mainnav">
+            <div class="container ">
+              <!-- <a class="navbar-brand logo-design fs-3 rounded-1 fw-semibold border-2 border bg-dark-subtle" href="#">EMMAX</a> -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span> <i class="bi bi-justify"></i></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbuttons">
+                  <a class="nav-link me-1" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link me-1" href="#portfolio">PORTFOLIO</a>
+                  <a class="nav-link me-1" href="#ourproducts">BLOG</a>
+                  <a class="nav-link me-1" href="#ourservices">PAGES</a>
+                  <a class="nav-link me-1" href="#contact">CONTACTS</a>
+                  <span class="mt-auto mb-auto text-light px-2 d-sm-none d-md-inline-block d-lg-block faint-stroke">|</span>
+                <div class="d-inline-flex social-icon-bar">
+                  <a class="nav-link social-icon d-inline-block px-md-1 px-lg-1 px-sm-1 d-sm-inline-block pe-2" href="#"> <i class="bi- bi-twitter"> </i></a> 
+                  <a class="nav-link social-icon d-inline-block px-md-1 px-lg-1 px-sm-1 d-sm-inline-block pe-2" href="#"> <i class="bi- bi-whatsapp"> </i></a>
+                  <a class="nav-link social-icon d-inline-block px-md-1 px-lg-1 px-sm-1 d-sm-inline-block" href="#"> <i class="bi- bi-instagram"> </i></a>
+                </div>
+                                     
+                </div>
+              </div>
+            </div>
+        </nav>
+        
+        <div class="container container-fluid-xl container-xxl container-lg container-fluid-sm container-fluid-md intro mb-5">
+            <div class="row mt-5">
+                <div class="h-50 col-xxl-4 col-lg-4 col-4 col-md-4 left-col d-xxl-block d-xl-block d-lg-block d-md-block d-sm-none d-none  bigimage image-div" data-tilt>
+                    <img class=" ms-md-3 ms-lg-0 ms-xl-0 ms-xxl-0 ms-0 img-fluid mt-4" src="assets/Image/image1.jpg" alt="">
+                </div>
+                <div class="col-xl-8 col-xxl-8 col-md-7 col-lg-8 col-sm-10 me-auto ms-auto right-col name">
+                    <h4 class="d-flex justify-content-between firstline"><span class="d-block">HI I'M</span><span class="d-block text-end redname me-3">ATANANG</span> </h4> 
+                    <h1 class="">EMMANUEL</h1>
+                    <h4 class="d-inline-block"><span class="redname">INIABASI</span></h4>
+                    <p class="text-end fst-italic text-white gdesign"><i class="bi-bullseye"></i>Graphics Designer</p>
+
+                    <p class="personal-info text-white "><span class="d-sm-inline-block d-md-block d-lg-block break">A graphic designer with a focus on</span> branding and typography.</p>
+                </div>
+                <div class="col-8 me-auto ms-auto left-col d-xxl-none d-xl-none d-lg-none d-md-none d-sm-block image-div" data-tilt>
+                    <img class="img-fluid mt-4" src="assets/Image/image1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    
+    <section class="text-center d-flex justify-content-center position-relative resume"> <h1 class="resume-title">RESUME </h1>
+        <span class="position-absolute z-2 about-title">ABOUT ME</span>
+    </section>
+
+    <section class="container mb-5 mt-5">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-6 align-items-start">
+                <h1 class="info-title">PERSONAL INFOS</h1>
+                <div class="row info-details">
+                    <div class="col-6">
+                        <P>First Name: <span class="fw-bolder text-white">Emmanuel</span></P>
+                        <P>Age: <span class="fw-bolder text-white">26 Years</span></P>
+                        <P>Freelance: <span class="fw-bolder text-white">Available</span></P>
+                        <P>Phone: <span class="fw-bolder text-white">+234-816-053-3766</span></P>
+                        <P>Email <span class="fw-bolder text-white ">emmanuelatanang<br class="sm">320@gmail.com</span></P>
+                    </div>
+
+                    <div class="col-6 align-items-end ">
+                        <P>Last Name: <span class="fw-bolder text-white">Atanang</span></P>
+                        <P>Nationality: <span class="fw-bolder text-white">Nigerian</span></P>
+                        <P>Residence: <span class="fw-bolder text-white">Ondo Town,Ondo State</span></P>
+                        <P>Languages: <span class="fw-bolder text-white">English, Efik</span></P>
+                        <i class="bi-instagram fs-4 me-1 text-white"></i> <i class="bi- bi-mailbox2 fs-4 me-1 text-white"></i> <i class="bi-whatsapp fs-4 text-white"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-6 justify-content-end text-white">
+                <div class="row accolades d-flex justify-content-around">
+                    <div class="col-lg-5 col-md-5 col-sm-12  gx-4 gy-4 separate" data-tilt><h1><span class="d-inline-block redname">5<sup>+</sup></span> <small class="text-white smalltext"><sub>Years of experience</sub></small></h1></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12  gx-4 gy-4" data-tilt><h1><span class="d-inline-block redname">350<sup>+</sup></span> <small class="text-white smalltext"><sub>Designs completed</sub></small></h1></div>
+                </div>
+                <div class="row accolades d-flex justify-content-around">
+                    <div class="col-lg-5 col-md-5 col-sm-12 gx-4 gy-4 separate" data-tilt><h1><span class="d-inline-block redname">150<sup>+</sup></span> <small class="text-white smalltext"><sub>Logos</sub></small></h1></div>
+                    <div class="col-lg-5 col-md-5 col-sm-12 gy-4 gy-4" data-tilt><h1><span class="d-inline-block redname">5<sup>+</sup></span> <small class="text-white smalltext"><sub>Design Awards won</sub></small></h1></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <div class="skill-title text-center text-white-50">
+        <h4>MY SKILLS</h4>
+    </div>
+
+    <div class="second-bg-color">
+
+        <div class="container skill-set position-relative d-flex justify-content-center align-items-center flex-wrap gap-5 pb-5 pt-2">
+            <div class="progress less" style="--i:40;--clr:rgb(218, 64, 64);">
+            <h3>40<span class="percent">%</span></h3>
+                <h4> Affinity Designer</h4>
+            </div>
+            <div class="progress" style="--i:90;--clr:rgb(218, 64, 64);">
+            <h3>90<span class="percent">%</span></h3>
+                <h4> Pics art</h4>
+            </div>
+            <div class="progress" style="--i:70;--clr:rgb(218, 64, 64);">
+            <h3>70<span class="percent">%</span></h3>
+                <h4> PixelLab</h4>
+            </div>
+            <div class="progress" style="--i:75;--clr:rgb(218, 64, 64);">
+            <h3>75<span class="percent">%</span></h3>
+                <h4> Design</h4>
+            </div>
+            <div class="progress" style="--i:50;--clr:rgb(218, 64, 64);">
+            <h3>50<span class="percent">%</span></h3>
+                <h4> Figma</h4>
+            </div>
+        </div>
+        <div class="horizontalline mx-auto text-center"></div>
+
+
+        <!-- WORKS -->
+        <section class="text-center d-flex justify-content-center position-relative works py-4" id="portfolio">
+                <h1 class="works-title">WORKS </h1>
+                <span class="position-absolute z-2 work-title">MY PORTFOLIO</span>
+        </section>
+
+        <div class="work-nav mx-auto container text-center">
+            <ul class="nav-buttons">
+                <li><a href="#" onclick="makeInactive(event)">ALL</a></li>
+                <li><a href="#" onclick="makeInactive(event)">LOGO</a> </a></li>
+                <li><a href="#" onclick="makeInactive(event)">VIDEO</a></li>
+                <li><a href="#" onclick="makeInactive(event)">GRAPHIC DESIGN</a></li>
+                <li><a href="#" onclick="makeInactive(event)">MOCKUPS</a></li>
+            </ul>
+        </div>
+
+        <div class="work-design-container container row mx-auto pt-4 justify-content-center align-items-center ">
+            <div class="work-design row justify-content-center gap-2 align-items-center">
+                <div class="work-card col-lg-3 col-md-3 col-sm-12  bg-light-subtle mt-1"></div>
+                <div class="different-work-card col-lg-3 col-md-3 col-sm-12 justify-content-center align-items-center mt-1 mb-md-5">
+                    <div class="row align-items-center justify-content-center gap-1 flex-md-column flex-sm-row gy-1">
+                    <div class="small-work-card col-lg-3 col-md-12 col-sm-12 bg-light-subtle"></div>
+                    <div class="small-work-card col-lg-3 col-md-12 col-sm-12 bg-light-subtle"></div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 work-card bg-light-subtle mt-1"></div>
+                <div class="col-lg-3 col-md-3 col-sm-12 work-card bg-light-subtle mt-1"></div>
+            </div>
+        </div>
+
+        <div class="container">
+        
+            <!-- Navigation Circles List -->
+            <ul class="nav-circles">
+                <li class="nav-circle" onclick="makeActive(0)"></li>
+                <li class="nav-circle" onclick="makeActive(1)"></li>
+                <li class="nav-circle" onclick="makeActive(2)"></li>
+                <li class="nav-circle" onclick="makeActive(3)"></li>
+            </ul>
+        </div>
+
+
+        <!-- HOBBIES SECTION -->
+        <section class="text-center d-flex justify-content-center position-relative works pt-4 pb-1">
+         <!--MADE USE OF WORKS CLASS FOR HOBBIES SECTION POOR CODING PRACTICE-->   <h1 class="works-title">HOBBIES</h1>
+            <span class="position-absolute z-2 work-title">MY HOBBIES</span>
+        </section>
+
+        <div class="container text-center justify-content-center align-items-center hobbies-icons position-relative pb-5">
+            <span class="games mt-5 mt-md-0 "><i class="bi bi-controller controllers"></i></span>
+            <span class="music mt-md-0 mt-5"><i class="bi bi-music-note-beamed"></i></span>
+            <span class="football mt-5 mt-md-0 "><i class="fa-regular fa-futbol"></i></span>
+            <span class="tennis mt-5 mt-md-0 "><i class="fa-solid fa-table-tennis-paddle-ball"></i></span>
+    </div>
+
+    <!-- CONTACT SESSION -->
+    <div class="contact container-fluid position-relative pb-3" id="contact">
+        <section class="text-center d-flex justify-content-center position-relative contact pt-4 pb-1">
+            <!--MADE USE OF WORKS CLASS FOR CONTACT SECTION POOR CODING PRACTICE-->
+            <h1 class="contacts-title">CONTACT</h1>
+            <span class="position-absolute z-2 way-to-contact-title">WAYS TO CONTACT ME</span>
+        </section>
+
+        <div class="container  justify-content-center text-center d-block position-absolute top-50 contact-details"><span class="d-inline-block" ><i class="bi bi-envelope"></i> emmanuelatanang320@gmail.com</span></div>
+        <div class="w-100 d-flex align-item-around justify-content-around contact-details2 position-absolute"> <span class="d-inline-block"><i class="fa-brands fa-instagram"></i> King_Emax</span> <span class="d-inline-block"><i class="fa-brands fa-whatsapp"></i> +234-816-053-3766</span></div>
+                <div class="lastline"></div>
+    </div>
+
+    
+
+    <!-- JQUERY CDN LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+   
+    <!-- TILT CDN LINK -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+   
+    <!-- BOOTSTRAP.JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="jquery.ripples-min.js"></script>
+    <script> 
+    jQuery(document).ready(function(){
+         $('body').ripples({
+            dropRadius: 30,
+            perturbance:0.01,
+});
+    })
+   
+    </script>
+    <script>
+        function makeActive(index) {
+            // Remove 'active-circle' class from all circles
+            const circles = document.querySelectorAll('.nav-circle');
+            circles.forEach(circle => {
+                circle.classList.remove('active-circle');
+            });
+
+            // Add 'active-circle' class to the clicked circle
+            circles[index].classList.add('active-circle');
+        }
+    </script>
+    <script>
+        function makeInactive(event) {
+            event.preventDefault(); // Prevent the default link behavior
+        }
+    </script>
+</body>
+</html>
